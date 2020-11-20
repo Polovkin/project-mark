@@ -401,8 +401,89 @@ $(document).ready(function () {
 "use strict"
 //===============================================================================================================================================================
 
-document.addEventListener('DOMContentLoaded', function () {
 
+document.addEventListener('DOMContentLoaded', function () {
+    const fullform = document.querySelector('#full-form');
+    if (fullform) {
+
+        console.log(localStorage);
+    } else {
+        const form = document.querySelector('#form')
+        const formContact = document.querySelector('#formContact');
+
+        function localStor(form) {
+
+            let formData = new FormData(form);
+            for (let key of formData.keys()) {
+                console.log(key);
+                localStorage.setItem(key,formData.get(key))
+            }
+
+            window.location.href = window.location.href + '/form.html';
+        }
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            let error = formValidate(form);
+            let formData = new FormData(form);
+            let chekbox = formData.get('radio');
+
+            if (chekbox === 'right') {
+                localStor(form);
+            } else {
+                if (error === 0) {
+                    console.log('valid')
+                    // form.classList.add('_sending');
+                    // let response = await fetch('sendmail.php', {
+                    //     method: 'POST',
+                    //     body: formData
+                    // });
+                    // if (response.ok) {
+                    //     let result = await response.json();
+                    //     alert(result.message);
+                    //     formPreview.innerHTML = '';
+                    //     form.reset();
+                    //     form.classList.remove('_sending');Или
+                    // } else {
+                    //     alert("Ошибка");
+                    //     form.classList.remove('_sending');
+                    // }
+                } else {
+                    // alert('Заполните обязательные поля');
+                    console.log(error);
+                }
+            }
+
+        });
+
+        formContact.addEventListener('submit', function (e) {
+            e.preventDefault();
+            let error = formValidate(formContact);
+            let formData = new FormData(formContact);
+
+            if (error === 0) {
+                console.log('valid')
+                // form.classList.add('_sending');
+                // let response = await fetch('sendmail.php', {
+                //     method: 'POST',
+                //     body: formData
+                // });
+                // if (response.ok) {
+                //     let result = await response.json();
+                //     alert(result.message);
+                //     formPreview.innerHTML = '';
+                //     form.reset();
+                //     form.classList.remove('_sending');
+                // } else {
+                //     alert("Ошибка");
+                //     form.classList.remove('_sending');
+                // }
+            } else {
+                // alert('Заполните обязательные поля');
+                console.log(error);
+            }
+        });
+    }
     // const form = document.getElementById('form');
     // const forms = document.querySelectorAll('form');
     //
@@ -410,46 +491,14 @@ document.addEventListener('DOMContentLoaded', function () {
     //     const form = forms[index];
     //     form.addEventListener('submit', formSend);
     // }
-    const form = document.querySelector('#form')
-
-    form.addEventListener('submit', formSend);
-
-    async function formSend(e) {
-        e.preventDefault();
-
-        let error = formValidate(form);
-        console.log(!!error);
-        let formData = new FormData(form);
-
-        // if (error === 0) {
-        //     form.classList.add('_sending');
-        //     let response = await fetch('sendmail.php', {
-        //         method: 'POST',
-        //         body: formData
-        //     });
-        //     if (response.ok) {
-        //         let result = await response.json();
-        //         alert(result.message);
-        //         formPreview.innerHTML = '';
-        //         form.reset();
-        //         form.classList.remove('_sending');
-        //     } else {
-        //         alert("Ошибка");
-        //         form.classList.remove('_sending');
-        //     }
-        // } else {
-        //     alert('Заполните обязательные поля');
-        // }
-
-    }
 
 
     function formValidate(form) {
         let error = 0;
-        let formReq = document.querySelectorAll('._req');
+        let formReq = form.querySelectorAll('._req');
 
         for (let index = 0; index < formReq.length; index++) {
-            const input = formReq[index];
+            let input = formReq[index];
             formRemoveError(input);
 
             if (input.classList.contains('_email')) {
