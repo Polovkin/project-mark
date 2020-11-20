@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "browser-sync": "^2.26.12",
+    "dropzone": "^5.7.2",
     "intl-tel-input": "^17.0.8"
   }
 }

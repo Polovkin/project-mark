@@ -422,7 +422,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			window.location.href = window.location.href + '/form.html';
 		}
 
-		form.addEventListener('submit', function (e) {
+		form.addEventListener('submit', async function  (e) {
 			e.preventDefault();
 			let error = formValidate(form);
 			let formData = new FormData(form);
@@ -666,15 +666,19 @@ sendForm.addEventListener('submit', (e) => {
 	e.preventDefault()
 	let formData = new FormData(sendForm)
 
-	try()
-	fetch('http://', {
-		method: 'POST',
-		body: formData
-	})
-		.then((response) => {
-			return response.json();
+	try {
+		fetch('http://', {
+			method: 'POST',
+			body: formData
 		})
-		.then((data) => {
-			console.log(data);
-		});
+			.then((response) => {
+				return response.json();
+			})
+			.then((data) => {
+				console.log(data);
+			});
+	}
+	catch (e) {
+		console.log('>>>', e);
+	}
 })
