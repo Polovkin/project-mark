@@ -22,6 +22,7 @@
     "gulp-uglify-es": "^2.0.0"
   },
   "dependencies": {
-    "browser-sync": "^2.26.12"
+    "browser-sync": "^2.26.12",
+    "intl-tel-input": "^17.0.8"
   }
 }

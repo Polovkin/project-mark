@@ -8,6 +8,7 @@ let menuLink = document.querySelectorAll('.menu__link');
 	menu.classList.toggle('active');
 	document.querySelector('body').classList.toggle('lock');
 })
+
 menuLink.forEach(function(itemlink){
 	itemlink.addEventListener('click', function (){
 			burgerMenu.classList.remove('active');
@@ -368,8 +369,8 @@ $(document).ready(function() {
 				$('.spoller__title').not($(this)).removeClass('active');
 				$('.spoller__text').not($(this).next()).slideUp(300);
 				$(this).toggleClass('active').next().slideToggle(300);
-			}	
-		});	
+			}
+		});
 	  }
 	//RADIO
 	$.each($('.radio__label'), function(index, val) {
@@ -397,7 +398,7 @@ $(document).ready(function() {
 //===============================================================================================================================================================
 
 document.addEventListener('DOMContentLoaded', function () {
-	
+
 	// const form = document.getElementById('form');
 	const forms = document.querySelectorAll('form');
 
@@ -513,7 +514,7 @@ $(document).ready(function () {
 					settings: {
 						variableWidth: true,
 						centerMode: true,
-						
+
 					}
 
 				},
@@ -537,7 +538,7 @@ $(document).ready(function () {
 			rows: 2,
 			fade:true,
 			infinite: false,
-			autoplay: false,				
+			autoplay: false,
 			dots: false,
 			speed: 1200,
 			easing: "ease",
