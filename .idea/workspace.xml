@@ -20,13 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97fbd5f5-af65-40b4-9bef-23998423b9eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/#app/scss/layout/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#app/scss/layout/_form.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/privacy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/vendors.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +59,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Михаил\Desktop\project\temp" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Михаил\Desktop\project\temp" />
       <recent name="C:\Users\Михаил\Desktop\project\project\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Михаил\Desktop\project\temp" />
     </key>
   </component>
   <component name="RunManager">
@@ -88,6 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605866012170</updated>
       <workItem from="1605866013321" duration="4708000" />
+      <workItem from="1605870851249" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="ignore">
       <created>1605866475055</created>
@@ -96,7 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605866475055</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <created>1605870894911</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605870894911</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit">
+      <created>1605870905727</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605870905727</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,10 +126,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="ignore" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="873" y="359" key="#Deployment" timestamp="1605867679514">
@@ -146,10 +162,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1102" y="402" key="RollbackChangesDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605867284378" />
-    <state x="873" y="434" key="Vcs.Push.Dialog.v2" timestamp="1605866481259">
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2" timestamp="1605870896303">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="873" y="434" key="Vcs.Push.Dialog.v2/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605866481259" />
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605870896303" />
     <state x="988" y="437" width="585" height="526" key="find.popup" timestamp="1605866572037">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
