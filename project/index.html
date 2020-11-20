@@ -13,9 +13,11 @@
 	<meta name='description' content="" />
 	<meta name="keywords" content="" />
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="stylesheet" href="js/input/build/css/intlTelInput.css">
 </head>
 
 <body>
+
 	<div class="wrapper">
 		<header class="header">
 			<div class="header__container">
@@ -93,6 +95,7 @@
 						<form class="order__form form form_light" action="#" id="form">
 							<div class="form__row">
 								<h2 class="form__title">Apply For Funding Now!</h2>
+								<input type="tel" id="phone">
 								<div class="form__group">
 									<div class="form__item">
 										<div class="form__label">First Name</div>
@@ -124,9 +127,8 @@
 									<div class="form__item">
 										<div class="form__label">Phone</div>
 										<div class="form__input">
-											<span class="form__country">ua</span>
-											<input type="tel" name="telephone" class="input _req _telephone"
-												placeholder="+3 8093 333 33 33">
+											<input id="phone1" type="tel" name="telephone" class="input _req _telephone"
+												>
 										</div>
 									</div>
 								</div>
@@ -845,7 +847,7 @@
 	</div>
 	<div id="popup" class="popup">
 		<div class="popup__body">
-			<form class="popup__form form-popup" action="#" id="form-Popup">
+			<form class="popup__form form-popup" id="form-Popup">
 				<a href="#header" class="popup__close close-popup icon-close"></a>
 				<h2 class="form-popup__title">Apply For Funding Now!</h2>
 				<div class="form-popup__group">
@@ -909,12 +911,19 @@
 	</div>
 	<!-- Подключаем jquery -->
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="js/input/build/js/intlTelInput.js"></script>
 
 	<script src="js/smoothScroll.js"></script>
 	<!-- Подключаем slick слайдер -->
 	<script src="js/slick.js"></script>
 	<!-- файл скриптов-->
 	<script src="js/main.js"></script>
+	<script>
+		var input = document.querySelector("#phone1");
+		//var input2 = document.querySelector("#phone2");
+		window.intlTelInput(input);
+		window.intlTelInput(input2);
+	</script>
 </body>
 
 </html>
