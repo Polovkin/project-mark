@@ -523,8 +523,15 @@ input:focus+.slider {
 	box-sizing: border-box;
 	resize: none;
 	height: 200px;
+	max-height: 200px;
+	overflow-y: scroll;
 	padding: 30px 50px;
-	width: 100%
+	width: 100%;
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+	&::-webkit-scrollbar {
+		display: none;
+	}
 }
 
 .full-form__checkbox {
@@ -721,12 +728,16 @@ label[for=full-form__sales]:before {
 		}
 		.dz-remove {
 			font-size: 14px;
-			color: red;
+			font-weight: normal;
+			color: #F05555;
 		}
 		.dz-details {
 			display: flex;
 			flex-direction: row-reverse;
 			justify-content: space-between;
+			font-size: 14px;
+			font-weight: 500;
+			color: white;
 		}
 		&:before {
 			display: block;
