@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97fbd5f5-af65-40b4-9bef-23998423b9eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/#app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/#app/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +31,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kY89JwQxKldrb9fa7Usp7jeSkc" />
@@ -85,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605866012170</updated>
       <workItem from="1605866013321" duration="4708000" />
-      <workItem from="1605870851249" duration="12493000" />
+      <workItem from="1605870851249" duration="13136000" />
     </task>
     <task id="LOCAL-00001" summary="ignore">
       <created>1605866475055</created>
@@ -178,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605881325501</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="123123">
+      <created>1605885504750</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605885504750</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +210,8 @@
     <MESSAGE value="ignore" />
     <MESSAGE value="commit" />
     <MESSAGE value="form fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="form fix" />
+    <MESSAGE value="123123" />
+    <option name="LAST_COMMIT_MESSAGE" value="123123" />
   </component>
   <component name="WindowStateProjectService">
     <state x="873" y="359" key="#Deployment" timestamp="1605867679514">
@@ -235,10 +246,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1102" y="402" key="RollbackChangesDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605873252109" />
-    <state x="873" y="434" key="Vcs.Push.Dialog.v2" timestamp="1605880687355">
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2" timestamp="1605885515012">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="873" y="434" key="Vcs.Push.Dialog.v2/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605880687355" />
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605885515012" />
+    <state x="1099" y="611" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605885612519">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1099" y="611" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605885612519" />
     <state x="988" y="437" width="585" height="526" key="find.popup" timestamp="1605881427999">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
