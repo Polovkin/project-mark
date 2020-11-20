@@ -25,12 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e62ab16-c4e6-4ec1-8fdb-d4127418fa08" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/#app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/#app/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#app/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#app/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#app/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/#app/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#app/scss/layout/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#app/scss/layout/_form.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +45,31 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Storage">
+      <created>1605902329980</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605902329980</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Storage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Storage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2472" y="178" key="#Deployment" timestamp="1605898778327">
@@ -66,6 +84,14 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605898777274" />
+    <state x="2472" y="249" key="Vcs.Push.Dialog.v2" timestamp="1605902337703">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605902337703" />
+    <state x="2588" y="237" width="583" height="566" key="find.popup" timestamp="1605902368891">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2588" y="237" width="583" height="566" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605902368891" />
     <state x="1986" y="170" width="486" height="699" key="ftp.server.browser" timestamp="1605898724502">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
