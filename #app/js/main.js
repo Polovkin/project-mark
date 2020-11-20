@@ -443,9 +443,9 @@ document.addEventListener('DOMContentLoaded', function () {
 								method: 'POST',
 								body: formData
 							});
+                            pageWrapper.classList.add("blur")
+                            sent.classList.add("open")
 							console.log(response);
-							pageWrapper.classList.add("blur")
-							sent.classList.add("open")
 							// if (response.ok) {
 							// 	let result = await response.json();
 							// 	alert(result.message);
@@ -489,10 +489,10 @@ document.addEventListener('DOMContentLoaded', function () {
                             method: 'POST',
                             body: formData
                         });
+                        pageWrapper.classList.add("blur")
+                        sent.classList.add("open")
 
 						console.log(response);
-						pageWrapper.classList.add("blur")
-						sent.classList.add("open")
 						// if (response.ok) {
 						// 	let result = await response.json();
 						// 	alert(result.message);
@@ -719,3 +719,18 @@ if (sendForm) {
     })
 
 }
+
+let signature = document.getElementById('signature')
+let signatureImg = document.getElementById('signatureImg')
+let del = document.getElementById('del')
+
+signature.addEventListener('input', () => {
+    del.classList.add('visible')
+    signatureImg.setAttribute('src', URL.createObjectURL(signature.files[0]))
+})
+
+del.addEventListener('click', () => {
+    signature.value = ''
+    signatureImg.setAttribute('src', '')
+    del.classList.remove('visible')
+})

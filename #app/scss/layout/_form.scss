@@ -849,3 +849,72 @@ label[for=full-form__sales]:before {
 		width: 100%;
 	}
 }
+
+.terms {
+	border-bottom: none;
+}
+
+.signature {
+	display: flex;
+	.signature-button {
+		width: 144px;
+		height: 50px;
+		background-color: #176CE2;
+		color: white;
+		font-size: 12px;
+		font-weight: bold;
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50px;
+		margin-right: 57px;
+		flex: 0 0 144px;
+		cursor: pointer;
+		input {
+			position: absolute;
+			opacity: 0;
+			height: 100%;
+			width: 100%;
+		}
+	}
+	.full-form__textarea {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 15px;
+		position: relative;
+		margin-bottom: 32px;
+		.image {
+			max-height: 100%;
+			max-width: 100%;
+			height: auto;
+			width: auto;
+		}
+		.remove {
+			position: absolute;
+			height: 22px;
+			width: 22px;
+			cursor: pointer;
+			top: 21px;
+			right: 27px;
+			align-items: center;
+			justify-content: center;
+			border-radius: 50%;
+			background-color: rgba(23,108,226,0.2);
+			display: none;
+			div {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 14px;
+				width: 14px;
+				border-radius: 50%;
+				background-color: rgba(23,108,226,1);
+			}
+			&.visible {
+				display: flex;
+			}
+		}
+	}
+}
