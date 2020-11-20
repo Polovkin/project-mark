@@ -415,11 +415,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
         function localStor(form) {
 
-			let formData = new FormData(form);
-			for (let key of formData.keys()) {
-				console.log(key);
-				localStorage.setItem(key,formData.get(key))
-			}
+            let formData = new FormData(form);
+            for (let key of formData.keys()) {
+                console.log(key);
+                localStorage.setItem(key, formData.get(key))
+            }
 
             window.location.href = window.location.href + '/form.html';
         }
@@ -430,35 +430,35 @@ document.addEventListener('DOMContentLoaded', function () {
             let formData = new FormData(form);
             let chekbox = formData.get('radio');
 
-			if (chekbox === 'right') {
-				localStor(form);
-			} else {
-				if (error === 0) {
-					console.log('sens')
-					if (error === 0) {
-						console.log(formData);
-						formContact.classList.add('_sending');
-						try {
-							let response = await fetch('http://mikle.takasho.work/send_mail.php', {
-								method: 'POST',
-								body: formData
-							});
+            if (chekbox === 'right') {
+                localStor(form);
+            } else {
+                if (error === 0) {
+                    console.log('sens')
+                    if (error === 0) {
+                        console.log(formData);
+                        formContact.classList.add('_sending');
+                        try {
+                            let response = await fetch('http://mikle.takasho.work/send_mail.php', {
+                                method: 'POST',
+                                body: formData
+                            });
+                            console.log(response);
                             pageWrapper.classList.add("blur")
                             sent.classList.add("open")
-							console.log(response);
-							// if (response.ok) {
-							// 	let result = await response.json();
-							// 	alert(result.message);
-							// 	formPreview.innerHTML = '';
-							// 	formContact.reset();
-							// 	formContact.classList.remove('_sending');
-							// } else {
-							// 	formContact.classList.remove('_sending');
-							// }
-						} catch (e) {
-							console.log(e);
-							throw e
-						}
+                            // if (response.ok) {
+                            // 	let result = await response.json();
+                            // 	alert(result.message);
+                            // 	formPreview.innerHTML = '';
+                            // 	formContact.reset();
+                            // 	formContact.classList.remove('_sending');
+                            // } else {
+                            // 	formContact.classList.remove('_sending');
+                            // }
+                        } catch (e) {
+                            console.log(e);
+                            throw e
+                        }
 
                     } else {
                         // alert('Заполните обязательные поля');
@@ -489,23 +489,23 @@ document.addEventListener('DOMContentLoaded', function () {
                             method: 'POST',
                             body: formData
                         });
+
+                        console.log(response);
                         pageWrapper.classList.add("blur")
                         sent.classList.add("open")
-
-						console.log(response);
-						// if (response.ok) {
-						// 	let result = await response.json();
-						// 	alert(result.message);
-						// 	formPreview.innerHTML = '';
-						// 	formContact.reset();
-						// 	formContact.classList.remove('_sending');
-						// } else {
-						// 	formContact.classList.remove('_sending');
-						// }
-					 } catch (e) {
-					     console.log(e);
-					      throw e
-					}
+                        // if (response.ok) {
+                        // 	let result = await response.json();
+                        // 	alert(result.message);
+                        // 	formPreview.innerHTML = '';
+                        // 	formContact.reset();
+                        // 	formContact.classList.remove('_sending');
+                        // } else {
+                        // 	formContact.classList.remove('_sending');
+                        // }
+                    } catch (e) {
+                        console.log(e);
+                        throw e
+                    }
 
                 } else {
                     // alert('Заполните обязательные поля');
@@ -668,7 +668,16 @@ $(document).ready(function () {
 let sendForm = document.getElementById('full-form');
 
 if (sendForm) {
-    console.log(localStorage);
+
+    let storageData = ['fname', 'lname', 'email', 'Company'];
+    let curentData = ['name', 'lastName', 'email', 'Company'];
+
+    for (let i = 0; i < storageData.length; i++) {
+        let input = document.querySelector(`input[name="${curentData[i]}"]`);
+
+        input.value = localStorage.getItem(storageData[i])
+
+    }
 
 
     sendForm.addEventListener('submit', (e) => {
@@ -677,16 +686,31 @@ if (sendForm) {
         let inputs = document.querySelectorAll('.full-form__input');
         let radioInput = document.querySelector('#full-form__itypeOther');
         let radios = document.querySelectorAll('input[type="radio"]');
+        const checkTerms = document.querySelector('input[type="checkbox"]')
         let formData = new FormData(sendForm)
         let error = false;
 
-        console.log(localStorage.length);
-        for (let i = 0; i < radios.length; i++) {
-            if (radioInput.value && radios[i].name === 'iType') {
-                formData.set('iType','')
-            }
+        formData.set('name', localStorage.getItem('fname'));
+        formData.set('lastName', localStorage.getItem('lname'));
+        formData.set('email', localStorage.getItem('email'));
+        formData.set('Company', localStorage.getItem('Company'));
+
+        for (let i = 0; i < storageData.length; i++) {
+            console.log(localStorage.getItem(storageData[i]));
+        }
+
+        //console.log(localStorage.length);
+        if (!checkTerms.checked) {
+            error = true
 
         }
+
+        for (let i = 0; i < radios.length; i++) {
+            if (radioInput.value && radios[i].name === 'iType') {
+                formData.set('iType', '')
+            }
+        }
+
         for (let i = 0; i < inputs.length; i++) {
             if (!inputs[i].value) {
                 error = true;
