@@ -3,20 +3,18 @@ let menu = document.querySelector('.menu__body');
 let menuLink = document.querySelectorAll('.menu__link');
 
 
-	burgerMenu.addEventListener('click', function () {
+burgerMenu.addEventListener('click', function () {
 	burgerMenu.classList.toggle('active');
 	menu.classList.toggle('active');
 	document.querySelector('body').classList.toggle('lock');
 })
-menuLink.forEach(function(itemlink){
-	itemlink.addEventListener('click', function (){
-			burgerMenu.classList.remove('active');
-			menu.classList.remove('active');
-			document.querySelector('body').classList.remove('lock');
+menuLink.forEach(function (itemlink) {
+	itemlink.addEventListener('click', function () {
+		burgerMenu.classList.remove('active');
+		menu.classList.remove('active');
+		document.querySelector('body').classList.remove('lock');
 	})
 });
-
-
 
 
 //===============================================================================================================================================================
@@ -34,6 +32,7 @@ let scrollDirection = 0;
 
 //ScrollOnScroll
 window.addEventListener('scroll', scroll_scroll);
+
 function scroll_scroll() {
 	//scr_body.setAttribute('data-scroll', pageYOffset);
 	let src_value = pageYOffset;
@@ -114,6 +113,7 @@ function scroll_scroll() {
 	}
 	scrollDirection = src_value <= 0 ? 0 : src_value;
 }
+
 setTimeout(function () {
 	//document.addEventListener("DOMContentLoaded", scroll_scroll);
 	scroll_scroll();
@@ -123,53 +123,53 @@ setTimeout(function () {
 let pageHeader = document.querySelector('.menu__pages');
 let notFound = document.querySelector('.not-found');
 
-if(!pageHeader && !notFound){
+if (!pageHeader && !notFound) {
 	let link = document.querySelectorAll('._goto-block');
-if (link) {
-	let blocks = [];
-	for (let index = 0; index < link.length; index++) {
-		let el = link[index];
-		let block_name = el.getAttribute('href').replace('#', '');
-		if (block_name != '' && !~blocks.indexOf(block_name)) {
-			blocks.push(block_name);
-		}
-		el.addEventListener('click', function (e) {
-			if (document.querySelector('.menu__body._active')) {
-				menu_close();
-				body_lock_remove(500);
+	if (link) {
+		let blocks = [];
+		for (let index = 0; index < link.length; index++) {
+			let el = link[index];
+			let block_name = el.getAttribute('href').replace('#', '');
+			if (block_name != '' && !~blocks.indexOf(block_name)) {
+				blocks.push(block_name);
 			}
-			let target_block_class = el.getAttribute('href').replace('#', '');
-			let target_block = document.querySelector('.' + target_block_class);
-			_goto(target_block, 600);
-			e.preventDefault();
-		})
-	}
+			el.addEventListener('click', function (e) {
+				if (document.querySelector('.menu__body._active')) {
+					menu_close();
+					body_lock_remove(500);
+				}
+				let target_block_class = el.getAttribute('href').replace('#', '');
+				let target_block = document.querySelector('.' + target_block_class);
+				_goto(target_block, 600);
+				e.preventDefault();
+			})
+		}
 
-	window.addEventListener('scroll', function (el) {
-		let old_current_link = document.querySelectorAll('._goto-block._active');
-		if (old_current_link) {
-			for (let index = 0; index < old_current_link.length; index++) {
-				let el = old_current_link[index];
-				el.classList.remove('_active');
+		window.addEventListener('scroll', function (el) {
+			let old_current_link = document.querySelectorAll('._goto-block._active');
+			if (old_current_link) {
+				for (let index = 0; index < old_current_link.length; index++) {
+					let el = old_current_link[index];
+					el.classList.remove('_active');
+				}
 			}
-		}
-		for (let index = 0; index < blocks.length; index++) {
-			let block = blocks[index];
-			let block_item = document.querySelector('.' + block);
-			if (block_item) {
-				let block_offset = offset(block_item).top;
-				let block_height = block_item.offsetHeight;
-				if ((pageYOffset > block_offset - window.innerHeight / 3) && pageYOffset < (block_offset + block_height) - window.innerHeight / 3) {
-					let current_links = document.querySelectorAll('._goto-block[href="#' + block + '"]');
-					for (let index = 0; index < current_links.length; index++) {
-						let current_link = current_links[index];
-						current_link.classList.add('_active');
+			for (let index = 0; index < blocks.length; index++) {
+				let block = blocks[index];
+				let block_item = document.querySelector('.' + block);
+				if (block_item) {
+					let block_offset = offset(block_item).top;
+					let block_height = block_item.offsetHeight;
+					if ((pageYOffset > block_offset - window.innerHeight / 3) && pageYOffset < (block_offset + block_height) - window.innerHeight / 3) {
+						let current_links = document.querySelectorAll('._goto-block[href="#' + block + '"]');
+						for (let index = 0; index < current_links.length; index++) {
+							let current_link = current_links[index];
+							current_link.classList.add('_active');
+						}
 					}
 				}
 			}
-		}
-	})
-}
+		})
+	}
 }
 
 
@@ -193,39 +193,43 @@ function _goto(target_block, speed, offset = 0) {
 //SameFunctions
 function offset(el) {
 	var rect = el.getBoundingClientRect(),
-		scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
-		scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-	return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+			scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+			scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+	return {top: rect.top + scrollTop, left: rect.left + scrollLeft}
 }
+
 function disableScroll() {
 	if (window.addEventListener) // older FF
 		window.addEventListener('DOMMouseScroll', preventDefault, false);
-	document.addEventListener('wheel', preventDefault, { passive: false }); // Disable scrolling in Chrome
+	document.addEventListener('wheel', preventDefault, {passive: false}); // Disable scrolling in Chrome
 	window.onwheel = preventDefault; // modern standard
 	window.onmousewheel = document.onmousewheel = preventDefault; // older browsers, IE
 	window.ontouchmove = preventDefault; // mobile
 	document.onkeydown = preventDefaultForScrollKeys;
 }
+
 function enableScroll() {
 	if (window.removeEventListener)
 		window.removeEventListener('DOMMouseScroll', preventDefault, false);
-	document.removeEventListener('wheel', preventDefault, { passive: false }); // Enable scrolling in Chrome
+	document.removeEventListener('wheel', preventDefault, {passive: false}); // Enable scrolling in Chrome
 	window.onmousewheel = document.onmousewheel = null;
 	window.onwheel = null;
 	window.ontouchmove = null;
 	document.onkeydown = null;
 }
+
 function preventDefault(e) {
 	e = e || window.event;
 	if (e.preventDefault)
 		e.preventDefault();
 	e.returnValue = false;
 }
+
 function preventDefaultForScrollKeys(e) {
 	/*if (keys[e.keyCode]) {
-		preventDefault(e);
-		return false;
-	}*/
+        preventDefault(e);
+        return false;
+    }*/
 }
 
 
@@ -349,9 +353,9 @@ document.addEventListener('keydown', function (e) {
 	if (!Element.prototype.matches) {
 		// определяем свойство
 		Element.prototype.matches = Element.prototype.matchesSelector ||
-			Element.prototype.webkitMatchesSelector ||
-			Element.prototype.mozMatchesSelector ||
-			Element.prototype.msMatchesSelector;
+				Element.prototype.webkitMatchesSelector ||
+				Element.prototype.mozMatchesSelector ||
+				Element.prototype.msMatchesSelector;
 	}
 })();
 
@@ -359,30 +363,30 @@ document.addEventListener('keydown', function (e) {
 
 
 //работа с формой===============================================================================================================================================================
-$(document).ready(function() {
+$(document).ready(function () {
 	if ($(window).width() < 480) {
-   		$(".js-spollers").addClass("_spollers");
+		$(".js-spollers").addClass("_spollers");
 	}
-	  if ($('._spollers')) {
-		  $('.spoller__title').click(function(event) {
-			if($('._spollers').hasClass('one')){
+	if ($('._spollers')) {
+		$('.spoller__title').click(function (event) {
+			if ($('._spollers').hasClass('one')) {
 				$('.spoller__title').not($(this)).removeClass('active');
 				$('.spoller__text').not($(this).next()).slideUp(300);
 				$(this).toggleClass('active').next().slideToggle(300);
-			}	
-		});	
-	  }
+			}
+		});
+	}
 	//RADIO
-	$.each($('.radio__label'), function(index, val) {
-		if($(this).find('input').prop('checked')==true){
+	$.each($('.radio__label'), function (index, val) {
+		if ($(this).find('input').prop('checked') == true) {
 			$(this).addClass('active');
 		}
 	});
-	$(document).on('click', '.radio__label', function(event) {
+	$(document).on('click', '.radio__label', function (event) {
 		$(this).parents('.radio').find('.radio__label').removeClass('active');
-		$(this).parents('.radio').find('.radio__label input').prop('checked',false);
+		$(this).parents('.radio').find('.radio__label input').prop('checked', false);
 		$(this).toggleClass('active');
-		$(this).find('input').prop('checked',true);
+		$(this).find('input').prop('checked', true);
 		return false;
 	});
 
@@ -397,53 +401,109 @@ $(document).ready(function() {
 "use strict"
 //===============================================================================================================================================================
 
+
 document.addEventListener('DOMContentLoaded', function () {
-	
-	// const form = document.getElementById('form');
-	const forms = document.querySelectorAll('form');
+	const fullform = document.querySelector('#full-form');
+	if (fullform) {
 
+		console.log(localStorage);
+	} else {
+		const form = document.querySelector('#form')
+		const formContact = document.querySelector('#formContact');
 
-	for (let index = 0; index < forms.length; index++) {
-		const form = forms[index];
-		form.addEventListener('submit', formSend);
-	}
+		function localStor(form) {
 
-	async function formSend(e) {
-		e.preventDefault();
-
-		let error = formValidate(form);
-
-		let formData = new FormData(form);
-
-		if (error === 0) {
-			form.classList.add('_sending');
-			let response = await fetch('sendmail.php', {
-				method: 'POST',
-				body: formData
-			});
-			if (response.ok) {
-				let result = await response.json();
-				alert(result.message);
-				formPreview.innerHTML = '';
-				form.reset();
-				form.classList.remove('_sending');
-			} else {
-				alert("Ошибка");
-				form.classList.remove('_sending');
+			let formData = new FormData(form);
+			for (let key of formData.keys()) {
+				console.log(key);
+				localStorage.setItem(key,formData.get(key))
 			}
-		} else {
-			alert('Заполните обязательные поля');
+
+			window.location.href = window.location.href + '/form.html';
 		}
 
+		form.addEventListener('submit', function (e) {
+			e.preventDefault();
+			let error = formValidate(form);
+			let formData = new FormData(form);
+			let chekbox = formData.get('radio');
+
+			if (chekbox === 'right') {
+				localStor(form);
+			} else {
+				if (error === 0) {
+					console.log('sens')
+					// form.classList.add('_sending');
+					// let response = await fetch('sendmail.php', {
+					//     method: 'POST',
+					//     body: formData
+					// });
+					// if (response.ok) {
+					//     let result = await response.json();
+					//     alert(result.message);
+					//     formPreview.innerHTML = '';
+					//     form.reset();
+					//     form.classList.remove('_sending');Или
+					// } else {
+					//     alert("Ошибка");
+					//     form.classList.remove('_sending');
+					// }
+				} else {
+					// alert('Заполните обязательные поля');
+					console.log(error);
+				}
+			}
+
+		});
+
+		formContact.addEventListener('submit', async function (e) {
+			e.preventDefault();
+			let error = formValidate(formContact);
+			let formData = new FormData(formContact);
+			let chekbox = formData.get('radio');
+
+			if (chekbox === 'right') {
+				localStor(formContact);
+			} else  {
+				if (error === 0) {
+					console.log(formData);
+					formContact.classList.add('_sending');
+					let response = await fetch('sendmail.php', {
+					    method: 'POST',
+					    body: formData
+					});
+					if (response.ok) {
+					    let result = await response.json();
+					    alert(result.message);
+					    formPreview.innerHTML = '';
+						formContact.reset();
+						formContact.classList.remove('_sending');Или
+					} else {
+					    alert("Ошибка");
+						formContact.classList.remove('_sending');
+					}
+				} else {
+					// alert('Заполните обязательные поля');
+					console.log(error);
+				}
+			}
+		});
 	}
+	// const form = document.getElementById('form');
+	// const forms = document.querySelectorAll('form');
+	//
+	// for (let index = 0; index < forms.length; index++) {
+	//     const form = forms[index];
+	//     form.addEventListener('submit', formSend);
+	// }
 
 
 	function formValidate(form) {
 		let error = 0;
-		let formReq = document.querySelectorAll('._req');
+		let formReq = form.querySelectorAll('._req');
 
 		for (let index = 0; index < formReq.length; index++) {
-			const input = formReq[index];
+			let input = formReq[index];
 			formRemoveError(input);
 
 			if (input.classList.contains('_email')) {
@@ -463,14 +523,17 @@ document.addEventListener('DOMContentLoaded', function () {
 		}
 		return error;
 	}
+
 	function formAddError(input) {
 		input.parentElement.classList.add('_error');
 		input.classList.add('_error');
 	}
+
 	function formRemoveError(input) {
 		input.parentElement.classList.remove('_error');
 		input.classList.remove('_error');
 	}
+
 	//Функция теста email
 	function emailTest(input) {
 		return !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,8})+$/.test(input.value);
@@ -502,7 +565,7 @@ $(document).ready(function () {
 			slidesToScroll: 1,
 			speed: 600,
 			infinite: false,
-   			rows: 0,
+			rows: 0,
 			initialSlide: 0,
 			autoplay: false,
 			adaptiveHeight: true,
@@ -510,14 +573,14 @@ $(document).ready(function () {
 			prevArrow: '<div class="main-slider__arrow arrow arrow__prev"><img src="img/icons/arrow-slider.svg" alt=""></div>',
 			nextArrow: '<div class="main-slider__arrow arrow arrow__next"><img src="img/icons/arrow-slider.svg" alt=""></div>',
 			responsive: [{
-					breakpoint: 1025,
-					settings: {
-						variableWidth: true,
-						centerMode: true,
-						
-					}
+				breakpoint: 1025,
+				settings: {
+					variableWidth: true,
+					centerMode: true,
 
-				},
+				}
+
+			},
 				{
 					breakpoint: 480,
 					settings: {
@@ -534,11 +597,11 @@ $(document).ready(function () {
 	var $reviews = $('.js-reviews-slider');
 	if ($reviews) {
 		$reviews.slick({
-			slidesPerRow:2,
+			slidesPerRow: 2,
 			rows: 2,
-			fade:true,
+			fade: true,
 			infinite: false,
-			autoplay: false,				
+			autoplay: false,
 			dots: false,
 			speed: 1200,
 			easing: "ease",
@@ -546,33 +609,33 @@ $(document).ready(function () {
 			prevArrow: '<div class="reviews-slider__arrow arrow arrow__prev"><img src="img/icons/arrow-slider.svg" alt=""></div>',
 			nextArrow: '<div class="reviews-slider__arrow arrow arrow__next"><img src="img/icons/arrow-slider.svg" alt=""></div>',
 			responsive: [
-			{
-				breakpoint: 1025,
-				settings: {
-						slidesPerRow:1,
-						fade:false,
+				{
+					breakpoint: 1025,
+					settings: {
+						slidesPerRow: 1,
+						fade: false,
 						rows: 1,
-						dots:true,
+						dots: true,
 						centerMode: true,
 						variableWidth: true,
 						slidesToShow: 2,
 						speed: 800,
-				}
+					}
 
-			},
-			{
-				breakpoint: 480,
-				settings: {
-					slidesPerRow:1,
-					speed: 1200,
-					variableWidth: false,
-					slidesToShow: 1,
-					rows: 1,
-					infinite: true,
-				}
+				},
+				{
+					breakpoint: 480,
+					settings: {
+						slidesPerRow: 1,
+						speed: 1200,
+						variableWidth: false,
+						slidesToShow: 1,
+						rows: 1,
+						infinite: true,
+					}
 
-			}
-		]
+				}
+			]
 		});
 	}
 
