@@ -3673,6 +3673,16 @@ label[for=full-form__sales]:before {
   color: transparent;
 }
 
+.animate-input + .full-form__radio-other-toggle {
+  border: 1px solid #176ce2;
+  background-color: #176ce2;
+}
+
+.animate-input.hide + .full-form__radio-other-toggle {
+  border: 1px solid #5b627d;
+  background-color: #5b627d;
+}
+
 @media (min-width: 480px) {
   .product-image__img:before {
     content: '';
