@@ -415,11 +415,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
         function localStor(form) {
 
-            let formData = new FormData(form);
-            for (let key of formData.keys()) {
-                console.log(key);
-                localStorage.setItem(key, formData.get(key))
-            }
+			let formData = new FormData(form);
+			for (let key of formData.keys()) {
+				console.log(key);
+				localStorage.setItem(key,formData.get(key))
+			}
 
             window.location.href = window.location.href + '/form.html';
         }
