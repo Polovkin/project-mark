@@ -76,7 +76,7 @@
 			<div class="page__content content">
 				<div class="content__container container">
 					<div class="info-block">
-						<form class="full-form__content" id="full-form">
+						<form class="full-form__content" id="full-form" name="">
 							<div class="full-form__block">
 								<h3 class="full-form__title">Business Information:</h3>
 								<div class="full-form__group">
@@ -475,6 +475,12 @@
 			let input2 = document.querySelector("#full-form__phone");
 			window.intlTelInput(input);
 			window.intlTelInput(input2);
+		</script>
+		<script>
+			let myDropzone = new Dropzone("div#myId", { url: "/file/post"});
+			myDropzone.on("addedfile", function(file) {
+				console.log('>>>', file);
+			});
 		</script>
 </body>
 
