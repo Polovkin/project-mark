@@ -21,131 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="97fbd5f5-af65-40b4-9bef-23998423b9eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/7aa69c481b407f30ed286cad3d58dcf2.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/7aa69c481b407f30ed286cad3d58dcf2.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/404/404-320.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/404/404-768.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/404/404.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/404/404.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/404/404decor-1400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/404/404decor-320.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/404/404decor-768.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/404/404decor-768.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/404/414-320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/404/414-768.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg-decor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg_2-decor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg_contact.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/Business_dots.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/Reviews_dots-768.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/Reviews_dots.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/Used-dots-320.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/Used-dots-768.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/Used-dots.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/about_dots.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/benefits_dots.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/contacts_dots-320.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/contacts_dots-768.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/contacts_dots.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/decor-big.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/decor-contact.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/decor-profile-bg.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/decor-profile.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/decor.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/decor_order_2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/dots-order-768.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/dots_order-768.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/dots_order.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/features-dots-320.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/features-dots-768.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/features-dots.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/funding-dots-320.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/funding-dots-768.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/funding-dots.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/leaf-big.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/leaf-sm.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/leaf.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/message.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/product-decor-768.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/product-decor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/product-decor.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/product-decor_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/product_decor.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/product_dots.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/decor/profile-decor.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon-fonts/icomoon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon-fonts/icomoon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon-fonts/icomoon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon-fonts/icomoon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/48h.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/Mail.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/approvals.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/arrow-link.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/arrow-slider.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/btn-message.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/burger.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/close.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/credit.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/grid-grey.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/grid.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/grids4rows.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/like.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/logo-active.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/notification.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/options.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/person.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/phone.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/price.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/rates.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/terms.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/order-block/bg.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/order-block/decor_order_2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/order-block/dots_order.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/page-forms/page_form_decor-1400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/page-links/decor_links-1400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/page-links/decor_links-320.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/page-links/decor_links-768.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/page-links/dots-content.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/page-links/dots_links-1400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/page-links/dots_links-320.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/page-links/dots_links-768.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/page-links/leaf-links-1400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/page-links/link-home.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/product-block/01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/product/01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/product/02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/product/03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/product/04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/reviews/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/slider/01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/slider/01.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/slider/02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/slider/02.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/slider/03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/slider/03.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/slick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/smoothScroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vendors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/links.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/privacy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605866012170</updated>
       <workItem from="1605866013321" duration="4708000" />
-      <workItem from="1605870851249" duration="1961000" />
+      <workItem from="1605870851249" duration="2627000" />
     </task>
     <task id="LOCAL-00001" summary="ignore">
       <created>1605866475055</created>
@@ -244,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605872223616</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit">
+      <created>1605872991305</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605872991305</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,10 +179,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1048" y="405" key="Github.UntrackedFilesDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605866309331" />
-    <state x="1102" y="402" key="RollbackChangesDialog" timestamp="1605867284378">
+    <state x="1102" y="402" key="RollbackChangesDialog" timestamp="1605873252109">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1102" y="402" key="RollbackChangesDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605867284378" />
+    <state x="1102" y="402" key="RollbackChangesDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605873252109" />
     <state x="873" y="434" key="Vcs.Push.Dialog.v2" timestamp="1605870896303">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
