@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97fbd5f5-af65-40b4-9bef-23998423b9eb" name="Default Changelist" comment="" />
+    <list default="true" id="97fbd5f5-af65-40b4-9bef-23998423b9eb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/#app/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/#app/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/form.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
