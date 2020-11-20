@@ -401,6 +401,8 @@ $(document).ready(function () {
 "use strict"
 //===============================================================================================================================================================
 
+let pageWrapper = document.getElementById('wrapper')
+let sent = document.getElementById('sendmail')
 
 document.addEventListener('DOMContentLoaded', function () {
 	const fullform = document.querySelector('#full-form');
@@ -442,6 +444,8 @@ document.addEventListener('DOMContentLoaded', function () {
 								body: formData
 							});
 							console.log(response);
+							pageWrapper.classList.add("blur")
+							sent.classList.add("open")
 							// if (response.ok) {
 							// 	let result = await response.json();
 							// 	alert(result.message);
@@ -487,6 +491,8 @@ document.addEventListener('DOMContentLoaded', function () {
 						});
 
 						console.log(response);
+						pageWrapper.classList.add("blur")
+						sent.classList.add("open")
 						// if (response.ok) {
 						// 	let result = await response.json();
 						// 	alert(result.message);
