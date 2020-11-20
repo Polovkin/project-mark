@@ -4,8 +4,13 @@
 @import "layout/_content";
 @import "layout/_form";
 @import "layout/_sent";
+@import "layout/popup";
 
 
 .full-form__input {
   width: 100%;
+}
+
+.full-form__item.animate-input.hide .full-form__input {
+  color: transparent;
 }
