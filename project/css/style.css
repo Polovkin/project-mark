@@ -3427,10 +3427,77 @@ label[for=full-form__sales]:before {
 #myId {
   cursor: pointer;
   width: 100%;
-  height: 200px;
+  height: 359px;
   border-radius: 50px;
   background-color: #5b627d;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#myId .dz-preview {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 680px;
+  max-height: 193px;
+  background-color: #5b627d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 74px 0 74px 67px;
+}
+
+#myId .dz-preview .dz-success-mark,
+#myId .dz-preview .dz-error-mark,
+#myId .dz-preview .dz-image {
+  display: none;
+}
+
+#myId .dz-preview .dz-remove {
+  font-size: 14px;
+  color: red;
+}
+
+#myId .dz-preview .dz-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#myId .dz-preview:before {
+  display: block;
+  content: '';
+  height: 51px;
+  width: 51px;
+  background-image: url("../img/drop.svg");
+  background-position: center;
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 
 #myId .dz-button {
