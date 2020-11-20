@@ -796,9 +796,8 @@
 									<div class="form__item">
 										<div class="form__label">Phone</div>
 										<div class="form__input">
-											<span class="form__country">ua</span>
-											<input type="tel" name="telephone" class="input _req _telephone"
-												   placeholder="+3 8093 333 33 33">
+											<input type="tel" name="telephone" id="phone2" class="input _req _telephone"
+												 >
 										</div>
 									</div>
 								</div>
@@ -920,7 +919,8 @@
 <script>
 	let input = document.querySelector("#phone1");
 	let input2 = document.querySelector("#phone2");
-	window.intlTelInput(input,input2);
+	window.intlTelInput(input);
+	window.intlTelInput(input2);
 </script>
 </body>
 
