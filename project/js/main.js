@@ -434,7 +434,7 @@ document.addEventListener('DOMContentLoaded', function () {
 				if (error === 0) {
 					console.log('sens')
 					// form.classList.add('_sending');
-					// let response = await fetch('sendmail.php', {
+					// let response = await fetch('send_mail.php', {
 					//     method: 'POST',
 					//     body: formData
 					// });
@@ -468,20 +468,27 @@ document.addEventListener('DOMContentLoaded', function () {
 				if (error === 0) {
 					console.log(formData);
 					formContact.classList.add('_sending');
-					let response = await fetch('sendmail.php', {
-					    method: 'POST',
-					    body: formData
-					});
-					if (response.ok) {
-					    let result = await response.json();
-					    alert(result.message);
-					    formPreview.innerHTML = '';
-						formContact.reset();
-						formContact.classList.remove('_sending');Или
-					} else {
-					    alert("Ошибка");
-						formContact.classList.remove('_sending');
+					try {
+						let response = await fetch('send_mail.php', {
+							method: 'POST',
+							body: formData
+						});
+
+						if (response.ok) {
+							let result = await response.json();
+							alert(result.message);
+							formPreview.innerHTML = '';
+							formContact.reset();
+							formContact.classList.remove('_sending');Или
+						} else {
+							alert("Ошибка");
+							formContact.classList.remove('_sending');
+						}
+					 } catch (e) {
+					     console.log(e);
+					      throw e
 					}
+
 				} else {
 					// alert('Заполните обязательные поля');
 					console.log(error);
