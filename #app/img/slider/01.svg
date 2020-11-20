@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="310" height="310" viewBox="0 0 310 310">
+  <defs>
+    <filter id="Прямоугольник_833" x="0" y="0" width="310" height="310" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-color="#e6704a" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Сгруппировать_2113" data-name="Сгруппировать 2113" transform="translate(-77 -5238)">
+    <rect id="Прямоугольник_1104" data-name="Прямоугольник 1104" width="100" height="100.503" rx="30" transform="translate(182 5340)" fill="#363b4d"/>
+    <g id="Сгруппировать_2112" data-name="Сгруппировать 2112">
+      <g id="Сгруппировать_2111" data-name="Сгруппировать 2111">
+        <g id="Сгруппировать_2110" data-name="Сгруппировать 2110">
+          <g id="Сгруппировать_2109" data-name="Сгруппировать 2109">
+            <g id="Сгруппировать_2107" data-name="Сгруппировать 2107">
+              <g transform="matrix(1, 0, 0, 1, 77, 5238)" filter="url(#Прямоугольник_833)">
+                <rect id="Прямоугольник_833-2" data-name="Прямоугольник 833" width="160" height="160" rx="50" transform="translate(75 72)" fill="#e6704a" opacity="0.2"/>
+              </g>
+            </g>
+          </g>
+          <rect id="Прямоугольник_834" data-name="Прямоугольник 834" width="100" height="100.503" rx="30" transform="translate(182 5340)" fill="#e6704a" opacity="0.3"/>
+        </g>
+        <path id="Icon_color" data-name="Icon color" d="M2,0H18a2,2,0,0,1,2,2V14a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Zm9.65,11.45L18,7V4.9l-7.35,5.15a1.14,1.14,0,0,1-1.3,0L2,4.9V7l6.35,4.45A2.88,2.88,0,0,0,11.65,11.45Z" transform="translate(222 5382)" fill="#e6704a" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="294" height="242.593" viewBox="0 0 294 242.593">
+  <defs>
+    <filter id="Прямоугольник_936" x="20.899" y="0" width="246.802" height="242.593" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-color="#176ce2" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Сгруппировать_2193" data-name="Сгруппировать 2193" transform="translate(-16 -152.774)">
+    <text id="_4_4" data-name="4    4" transform="translate(16 317.964)" fill="#fff" font-size="130" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" opacity="0.2"><tspan x="0" y="0" xml:space="preserve">4    4</tspan></text>
+    <g id="Сгруппировать_1608" data-name="Сгруппировать 1608" transform="translate(111.899 224.774)">
+      <g transform="matrix(1, 0, 0, 1, -95.9, -72)" filter="url(#Прямоугольник_936)">
+        <rect id="Прямоугольник_936-2" data-name="Прямоугольник 936" width="96.802" height="92.593" rx="25" transform="translate(95.9 72)" fill="#176ce2" opacity="0.3"/>
+      </g>
+      <rect id="Прямоугольник_1147" data-name="Прямоугольник 1147" width="22.246" height="10.221" rx="5.111" transform="translate(66.739 79.967) rotate(-90)" fill="#fff"/>
+      <rect id="Прямоугольник_1148" data-name="Прямоугольник 1148" width="33.67" height="9.62" rx="4.81" transform="translate(51.106 79.967) rotate(-90)" fill="#fff"/>
+      <rect id="Прямоугольник_1149" data-name="Прямоугольник 1149" width="51.708" height="9.62" rx="4.81" transform="translate(35.474 79.967) rotate(-90)" fill="#fff"/>
+      <rect id="Прямоугольник_1150" data-name="Прямоугольник 1150" width="66.739" height="9.62" rx="4.81" transform="translate(19.841 79.967) rotate(-90)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
