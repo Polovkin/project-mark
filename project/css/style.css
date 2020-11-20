@@ -3522,6 +3522,110 @@ label[for=full-form__sales]:before {
   width: 100%;
 }
 
+.terms {
+  border-bottom: none;
+}
+
+.signature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.signature .signature-button {
+  width: 144px;
+  height: 50px;
+  background-color: #176CE2;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50px;
+  margin-right: 57px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 144px;
+          flex: 0 0 144px;
+  cursor: pointer;
+}
+
+.signature .signature-button input {
+  position: absolute;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.signature .full-form__textarea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px;
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.signature .full-form__textarea .image {
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+.signature .full-form__textarea .remove {
+  position: absolute;
+  height: 22px;
+  width: 22px;
+  cursor: pointer;
+  top: 21px;
+  right: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(23, 108, 226, 0.2);
+  display: none;
+}
+
+.signature .full-form__textarea .remove div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background-color: #176ce2;
+}
+
+.signature .full-form__textarea .remove.visible {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .wrapper {
   width: 100%;
   min-height: 100%;
