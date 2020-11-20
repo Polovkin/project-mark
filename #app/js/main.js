@@ -401,6 +401,8 @@ $(document).ready(function () {
 "use strict"
 //===============================================================================================================================================================
 
+let pageWrapper = document.getElementById('wrapper')
+let sent = document.getElementById('sendmail')
 
 document.addEventListener('DOMContentLoaded', function () {
     const fullform = document.querySelector('#full-form');
@@ -413,11 +415,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
         function localStor(form) {
 
-            let formData = new FormData(form);
-            for (let key of formData.keys()) {
-                console.log(key);
-                localStorage.setItem(key, formData.get(key))
-            }
+			let formData = new FormData(form);
+			for (let key of formData.keys()) {
+				console.log(key);
+				localStorage.setItem(key,formData.get(key))
+			}
 
             window.location.href = window.location.href + '/form.html';
         }
@@ -428,33 +430,35 @@ document.addEventListener('DOMContentLoaded', function () {
             let formData = new FormData(form);
             let chekbox = formData.get('radio');
 
-            if (chekbox === 'right') {
-                localStor(form);
-            } else {
-                if (error === 0) {
-                    console.log('sens')
-                    if (error === 0) {
-                        console.log(formData);
-                        formContact.classList.add('_sending');
-                        try {
-                            let response = await fetch('http://mikle.takasho.work/send_mail.php', {
-                                method: 'POST',
-                                body: formData
-                            });
-                            console.log(response);
-                            // if (response.ok) {
-                            // 	let result = await response.json();
-                            // 	alert(result.message);
-                            // 	formPreview.innerHTML = '';
-                            // 	formContact.reset();
-                            // 	formContact.classList.remove('_sending');
-                            // } else {
-                            // 	formContact.classList.remove('_sending');
-                            // }
-                        } catch (e) {
-                            console.log(e);
-                            throw e
-                        }
+			if (chekbox === 'right') {
+				localStor(form);
+			} else {
+				if (error === 0) {
+					console.log('sens')
+					if (error === 0) {
+						console.log(formData);
+						formContact.classList.add('_sending');
+						try {
+							let response = await fetch('http://mikle.takasho.work/send_mail.php', {
+								method: 'POST',
+								body: formData
+							});
+							console.log(response);
+							pageWrapper.classList.add("blur")
+							sent.classList.add("open")
+							// if (response.ok) {
+							// 	let result = await response.json();
+							// 	alert(result.message);
+							// 	formPreview.innerHTML = '';
+							// 	formContact.reset();
+							// 	formContact.classList.remove('_sending');
+							// } else {
+							// 	formContact.classList.remove('_sending');
+							// }
+						} catch (e) {
+							console.log(e);
+							throw e
+						}
 
                     } else {
                         // alert('Заполните обязательные поля');
@@ -486,20 +490,22 @@ document.addEventListener('DOMContentLoaded', function () {
                             body: formData
                         });
 
-                        console.log(response);
-                        // if (response.ok) {
-                        // 	let result = await response.json();
-                        // 	alert(result.message);
-                        // 	formPreview.innerHTML = '';
-                        // 	formContact.reset();
-                        // 	formContact.classList.remove('_sending');
-                        // } else {
-                        // 	formContact.classList.remove('_sending');
-                        // }
-                    } catch (e) {
-                        console.log(e);
-                        throw e
-                    }
+						console.log(response);
+						pageWrapper.classList.add("blur")
+						sent.classList.add("open")
+						// if (response.ok) {
+						// 	let result = await response.json();
+						// 	alert(result.message);
+						// 	formPreview.innerHTML = '';
+						// 	formContact.reset();
+						// 	formContact.classList.remove('_sending');
+						// } else {
+						// 	formContact.classList.remove('_sending');
+						// }
+					 } catch (e) {
+					     console.log(e);
+					      throw e
+					}
 
                 } else {
                     // alert('Заполните обязательные поля');
@@ -698,11 +704,16 @@ if (sendForm) {
                 body: formData
             })
                     .then((response) => {
+                        pageWrapper.classList.add("blur")
+                        sent.classList.add("open")
                         return response.json();
                     })
                     .then((data) => {
                         console.log(data);
-                    });
+                    })
+                    .catch((e) => {
+                        console.log('>>>', e);
+                    })
         }
 
     })

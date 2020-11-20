@@ -1,0 +1,166 @@
+// добавляем класс блур для размытия фона
+.wrapper {
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+
+	&.blur {
+		transition: all 0.4s ease-in-out;
+		filter: blur(4px);
+	}
+}
+
+
+
+// Попап
+.sendmail-popup {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	overflow-y: auto;
+	overflow-x: hidden;
+	transition: all 0.8s ease 0s;
+	z-index: 14;
+
+	&.open {
+		opacity: 1;
+		visibility: visible;
+
+		.sendmail-popup__content {
+			transform: scale(1);
+			opacity: 1;
+		}
+	}
+
+	// .sendmail-popup__body
+
+	&__body {
+		min-height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 30px 10px;
+		transition: all 0.8s ease 0s;
+
+		@media (max-width: 480px) {
+			padding: 0;
+		}
+
+	}
+
+	// .sendmail-popup__close
+
+	&__close {
+		position: absolute;
+		right: -10px;
+		top: -10px;
+	}
+
+	.icon-close {
+		&:before {
+			color: #fff;
+			font-size: 15px;
+		}
+	}
+
+	// .sendmail-popup__content
+
+	&__content {
+		background-color: #0D1B39;
+		max-width: 420px;
+		padding: 27px 20px 45px 20px;
+		position: relative;
+		transition: all 0.5s ease 0s;
+		color: #fff;
+		border-radius: 40px;
+
+		@media (max-width: 480px) {
+			max-width: 100%;
+		}
+
+		opacity: 0;
+		transform: scale(0);
+
+	}
+
+	// .sendmail-popup__title
+
+	&__title {
+		font-size: 24px;
+		font-weight: 700;
+		text-align: center;
+
+		span {
+			position: relative;
+
+			&:before {
+				content: '';
+				width: 100%;
+				height: 8px;
+				left: 0;
+				z-index: -1;
+				position: absolute;
+				bottom: 3px;
+				background-color: #176CE2;
+			}
+		}
+	}
+
+	// .sendmail-popup__image
+
+	&__image {
+		padding: 0px 0px 55% 0px;
+	}
+
+	// .sendmail-popup__subtitle
+
+	&__subtitle {
+		text-align: center;
+		font-size: 24px;
+		font-weight: 700;
+		margin: 0px 0px 30px 0px;
+
+	}
+
+	// .sendmail-popup__text
+
+	&__text {
+		font-size: 16px;
+		line-height: 24px;
+		margin: 0px 0px 27px 0px;
+		text-align: center;
+	}
+
+	// .sendmail-popup__btb
+
+	&__btb {
+		margin: 0 auto;
+		max-width: 145px;
+		height: 50px;
+	}
+
+	@media (max-width: 480px) {
+		background-color: #0D1B39;
+
+		&__close {
+			position: absolute;
+			right: 20px;
+			top: -30px;
+		}
+
+		.icon-close {
+			&:before {
+				color: #E6704A;
+				font-size: 16px;
+			}
+		}
+	}
+
+}

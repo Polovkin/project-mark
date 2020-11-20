@@ -30,7 +30,7 @@
 </head>
 
 <body>
-<div class="wrapper">
+<div class="wrapper" id="wrapper">
     <header class="header">
         <div class="header__container">
             <a href="/"
@@ -607,6 +607,22 @@
         </div>
     </div>
 </div>
+
+<div id="sendmail" class="sendmail-popup">
+    <div class="sendmail-popup__body">
+        <div class="sendmail-popup__content">
+            <a href="#header" class="sendmail-popup__close icon-close"></a>
+            <div class="sendmail-popup__title"><span>Thank You!</span></div>
+            <div class="sendmail-popup__image ibg">
+                <img src="img/icons/form-popup-send.svg" alt="" />
+            </div>
+            <div class="sendmail-popup__subtitle"><span>Request has been sent</span></div>
+            <div class="sendmail-popup__text">Our funding specialist will connect with you as soon as possible
+            </div>
+            <a href="/" class="sendmail-popup__btb btn"><span>Got It</span></a>
+        </div>
+    </div>
+</div>
 <!-- Подключаем jquery -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="js/input/build/js/intlTelInput.js"></script>
@@ -622,12 +638,6 @@
     let input2 = document.querySelector("#full-form__phone");
     window.intlTelInput(input);
     window.intlTelInput(input2);
-</script>
-<script>
-    let myDropzone = new Dropzone("div#myId", {url: "/file/post"});
-    myDropzone.on("addedfile", function (file) {
-        console.log('>>>', file);
-    });
 </script>
 </body>
 
