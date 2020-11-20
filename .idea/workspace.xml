@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97fbd5f5-af65-40b4-9bef-23998423b9eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/#app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/#app/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/js/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="97fbd5f5-af65-40b4-9bef-23998423b9eb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,18 +54,32 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Михаил\Desktop\project\temp" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Михаил\Desktop\project\#app\js" />
       <recent name="C:\Users\Михаил\Desktop\project\temp" />
       <recent name="C:\Users\Михаил\Desktop\project\project\js" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Михаил\Desktop\project\temp" />
-    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="js.build_tools.gulp">
@@ -82,7 +92,10 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="97fbd5f5-af65-40b4-9bef-23998423b9eb" name="Default Changelist" comment="" />
@@ -218,12 +231,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ignore" />
@@ -234,57 +248,33 @@
     <option name="LAST_COMMIT_MESSAGE" value="dropzone" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2575" y="267" key="#Deployment" timestamp="1605891114282">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="873" y="359" key="#Deployment/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605867679514" />
-    <state x="2575" y="267" key="#Deployment/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605891114282" />
-    <state x="2563" y="257" key="#SSH_Configurations" timestamp="1605891091531">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="857" y="346" key="#SSH_Configurations/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605867582082" />
-    <state x="2563" y="257" key="#SSH_Configurations/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605891091531" />
-    <state x="736" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605869847432">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="736" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605869847432" />
-    <state x="1043" y="496" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605872565876">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1043" y="496" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605872565876" />
-    <state x="1061" y="442" key="FileChooserDialogImpl" timestamp="1605866260589">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1061" y="442" key="FileChooserDialogImpl/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605866260589" />
-    <state x="1158" y="603" key="Github.ShareDialog" timestamp="1605870704553">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1158" y="603" key="Github.ShareDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605870704553" />
-    <state x="1048" y="405" key="Github.UntrackedFilesDialog" timestamp="1605866309331">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1048" y="405" key="Github.UntrackedFilesDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605866309331" />
-    <state x="1102" y="402" key="RollbackChangesDialog" timestamp="1605873252109">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1102" y="402" key="RollbackChangesDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605873252109" />
-    <state x="2575" y="322" key="Vcs.Push.Dialog.v2" timestamp="1605894810177">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="873" y="434" key="Vcs.Push.Dialog.v2/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605885515012" />
-    <state x="2575" y="322" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605894810177" />
-    <state x="1099" y="611" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605886126166">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1099" y="611" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605886126166" />
-    <state x="2781" y="0" width="897" height="829" key="dock-window-1" timestamp="1605892665024">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2781" y="0" width="897" height="829" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605892665024" />
-    <state x="2661" y="325" width="555" height="566" key="find.popup" timestamp="1605891639145">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="988" y="437" width="585" height="526" key="find.popup/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605881427999" />
-    <state x="2661" y="325" width="555" height="566" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605891639145" />
+    <state x="2575" y="267" key="#Deployment" />
+    <state x="873" y="359" key="#Deployment/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" />
+    <state x="2575" y="267" key="#Deployment/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" />
+    <state x="2563" y="257" key="#SSH_Configurations" />
+    <state x="857" y="346" key="#SSH_Configurations/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" />
+    <state x="2563" y="257" key="#SSH_Configurations/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" />
+    <state x="736" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
+    <state x="736" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" />
+    <state x="1043" y="496" key="#com.intellij.fileTypes.FileTypeChooser" />
+    <state x="1043" y="496" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" />
+    <state x="1061" y="442" key="FileChooserDialogImpl" />
+    <state x="1061" y="442" key="FileChooserDialogImpl/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" />
+    <state x="1158" y="603" key="Github.ShareDialog" />
+    <state x="1158" y="603" key="Github.ShareDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" />
+    <state x="1048" y="405" key="Github.UntrackedFilesDialog" />
+    <state x="1048" y="405" key="Github.UntrackedFilesDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" />
+    <state x="1102" y="402" key="RollbackChangesDialog" />
+    <state x="1102" y="402" key="RollbackChangesDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" />
+    <state x="2575" y="322" key="Vcs.Push.Dialog.v2" />
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" />
+    <state x="2575" y="322" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" />
+    <state x="1099" y="611" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" />
+    <state x="1099" y="611" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" />
+    <state x="2781" y="0" width="897" height="829" key="dock-window-1" />
+    <state x="2781" y="0" width="897" height="829" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" />
+    <state x="2661" y="325" width="555" height="566" key="find.popup" />
+    <state x="988" y="437" width="585" height="526" key="find.popup/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" />
+    <state x="2661" y="325" width="555" height="566" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" />
   </component>
 </project>

@@ -704,11 +704,16 @@ if (sendForm) {
                 body: formData
             })
                     .then((response) => {
+                        pageWrapper.classList.add("blur")
+                        sent.classList.add("open")
                         return response.json();
                     })
                     .then((data) => {
                         console.log(data);
-                    });
+                    })
+                    .catch((e) => {
+                        console.log('>>>', e);
+                    })
         }
 
     })
