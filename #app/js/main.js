@@ -745,13 +745,20 @@ let signature = document.getElementById('signature')
 let signatureImg = document.getElementById('signatureImg')
 let del = document.getElementById('del')
 
-signature.addEventListener('input', () => {
-    del.classList.add('visible')
-    signatureImg.setAttribute('src', URL.createObjectURL(signature.files[0]))
-})
+if(signature) {
+    signature.addEventListener('input', () => {
+        console.log('>>>', signature.files);
+        del.classList.add('visible')
+        if (signature.files[0].type === ('image/jpeg') || signature.files[0].type === ('image/png')) {
+            signatureImg.setAttribute('src', URL.createObjectURL(signature.files[0]))
+        } else {
+            signatureImg.setAttribute('src', 'img/drop.svg')
+        }
+    })
 
-del.addEventListener('click', () => {
-    signature.value = ''
-    signatureImg.setAttribute('src', '')
-    del.classList.remove('visible')
-})
+    del.addEventListener('click', () => {
+        signature.value = ''
+        signatureImg.setAttribute('src', '')
+        del.classList.remove('visible')
+    })
+}
