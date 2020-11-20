@@ -21,10 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="97fbd5f5-af65-40b4-9bef-23998423b9eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605866012170</updated>
       <workItem from="1605866013321" duration="4708000" />
-      <workItem from="1605870851249" duration="7900000" />
+      <workItem from="1605870851249" duration="8537000" />
     </task>
     <task id="LOCAL-00001" summary="ignore">
       <created>1605866475055</created>
@@ -144,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605876295766</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="form fix">
+      <created>1605878905065</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605878905065</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,10 +205,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1102" y="402" key="RollbackChangesDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605873252109" />
-    <state x="873" y="434" key="Vcs.Push.Dialog.v2" timestamp="1605876297124">
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2" timestamp="1605878906565">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="873" y="434" key="Vcs.Push.Dialog.v2/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605876297124" />
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605878906565" />
     <state x="988" y="437" width="585" height="526" key="find.popup" timestamp="1605866572037">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
