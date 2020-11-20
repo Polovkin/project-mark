@@ -3262,18 +3262,22 @@
 
 
 .main-slider {
+	padding-top: 70px;
 	margin: 0px 0px 197px 0px;
 	position: relative;
 
 	@media (min-width: 1800px) {
+
 		margin: 0px 0px 267px 0px;
 	}
 
 	@media (max-width: 1025px) {
+		padding-top: 0;
 		margin: 0px 0px 130px 0px;
 	}
 
 	@media (max-width: 480px) {
+		padding-top: 0;
 		margin: 0px 0px 105px 0px;
 	}
 

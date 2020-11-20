@@ -205,12 +205,15 @@ input:focus+.slider {
 	background-color: #5b627d;
 
 }
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active  {
-	-webkit-box-shadow: 0 0 0 30px #5b627d inset !important;
-	-webkit-text-fill-color: white !important;
+
+.full-form__content {
+	input:-webkit-autofill,
+	input:-webkit-autofill:hover,
+	input:-webkit-autofill:focus,
+	input:-webkit-autofill:active  {
+		-webkit-box-shadow: 0 0 0 30px #5b627d inset !important;
+		-webkit-text-fill-color: white !important;
+	}
 }
 .full-form__input::-webkit-input-placeholder,
 .full-form__textarea::-webkit-input-placeholder {

@@ -698,11 +698,8 @@ if (sendForm) {
         for (let i = 0; i < storageData.length; i++) {
             console.log(localStorage.getItem(storageData[i]));
         }
-
-        //console.log(localStorage.length);
         if (!checkTerms.checked) {
             error = true
-
         }
 
         for (let i = 0; i < radios.length; i++) {

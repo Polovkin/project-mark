@@ -1893,6 +1893,7 @@ h6 {
 }
 
 .main-slider {
+  padding-top: 70px;
   margin: 0px 0px 197px 0px;
   position: relative;
 }
@@ -2887,10 +2888,10 @@ input:focus + .slider {
   background-color: #5b627d;
 }
 
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active {
+.full-form__content input:-webkit-autofill,
+.full-form__content input:-webkit-autofill:hover,
+.full-form__content input:-webkit-autofill:focus,
+.full-form__content input:-webkit-autofill:active {
   -webkit-box-shadow: 0 0 0 30px #5b627d inset !important;
   -webkit-text-fill-color: white !important;
 }
@@ -4846,6 +4847,7 @@ label[for=full-form__sales]:before {
   }
 
   .main-slider {
+    padding-top: 0;
     margin: 0px 0px 130px 0px;
   }
 
@@ -5595,6 +5597,7 @@ label[for=full-form__sales]:before {
   }
 
   .main-slider {
+    padding-top: 0;
     margin: 0px 0px 105px 0px;
   }
 
