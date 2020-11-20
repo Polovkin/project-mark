@@ -1,65 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="25c2c1b8-a1f4-4ddc-ad4d-4bc218c0a53a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/#app/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/#app/form.html" afterDir="false" />
+    <list default="true" id="97fbd5f5-af65-40b4-9bef-23998423b9eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/#app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/#app/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/js/main.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1kYeBl8kraUs9EPZA6AGPZkQfzz" />
+  <component name="ProjectId" id="1kY89JwQxKldrb9fa7Usp7jeSkc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/#app/js" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Михаил\Desktop\project\#app\js" />
+      <recent name="C:\Users\Михаил\Desktop\project\temp" />
+      <recent name="C:\Users\Михаил\Desktop\project\project\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Михаил\Desktop\project\temp" />
+    </key>
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="25c2c1b8-a1f4-4ddc-ad4d-4bc218c0a53a" name="Default Changelist" comment="" />
-      <created>1605881818645</created>
+      <changelist id="97fbd5f5-af65-40b4-9bef-23998423b9eb" name="Default Changelist" comment="" />
+      <created>1605866012170</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605881818645</updated>
-      <workItem from="1605881821499" duration="3573000" />
+      <updated>1605866012170</updated>
+      <workItem from="1605866013321" duration="4708000" />
+      <workItem from="1605870851249" duration="12493000" />
     </task>
+    <task id="LOCAL-00001" summary="ignore">
+      <created>1605866475055</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605866475055</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit">
+      <created>1605870894911</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605870894911</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit">
+      <created>1605870905727</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605870905727</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit">
+      <created>1605871549755</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605871549755</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit">
+      <created>1605872223616</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605872223616</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit">
+      <created>1605872991305</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605872991305</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit">
+      <created>1605873614056</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605873614056</updated>
+    </task>
+    <task id="LOCAL-00008" summary="form fix">
+      <created>1605876295766</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605876295766</updated>
+    </task>
+    <task id="LOCAL-00009" summary="form fix">
+      <created>1605878905065</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605878905065</updated>
+    </task>
+    <task id="LOCAL-00010" summary="form fix">
+      <created>1605879851057</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605879851057</updated>
+    </task>
+    <task id="LOCAL-00011" summary="form fix">
+      <created>1605880330872</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605880330872</updated>
+    </task>
+    <task id="LOCAL-00012" summary="form fix">
+      <created>1605880685800</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605880685800</updated>
+    </task>
+    <task id="LOCAL-00013" summary="form fix">
+      <created>1605881325501</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605881325501</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -71,5 +194,54 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ignore" />
+    <MESSAGE value="commit" />
+    <MESSAGE value="form fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="form fix" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="873" y="359" key="#Deployment" timestamp="1605867679514">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="873" y="359" key="#Deployment/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605867679514" />
+    <state x="857" y="346" key="#SSH_Configurations" timestamp="1605867582082">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="857" y="346" key="#SSH_Configurations/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605867582082" />
+    <state x="736" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605869847432">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="736" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605869847432" />
+    <state x="1043" y="496" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605872565876">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1043" y="496" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605872565876" />
+    <state x="1061" y="442" key="FileChooserDialogImpl" timestamp="1605866260589">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1061" y="442" key="FileChooserDialogImpl/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605866260589" />
+    <state x="1158" y="603" key="Github.ShareDialog" timestamp="1605870704553">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1158" y="603" key="Github.ShareDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605870704553" />
+    <state x="1048" y="405" key="Github.UntrackedFilesDialog" timestamp="1605866309331">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1048" y="405" key="Github.UntrackedFilesDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605866309331" />
+    <state x="1102" y="402" key="RollbackChangesDialog" timestamp="1605873252109">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1102" y="402" key="RollbackChangesDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605873252109" />
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2" timestamp="1605880687355">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605880687355" />
+    <state x="988" y="437" width="585" height="526" key="find.popup" timestamp="1605881427999">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="988" y="437" width="585" height="526" key="find.popup/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605881427999" />
   </component>
 </project>

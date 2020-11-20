@@ -441,16 +441,16 @@ document.addEventListener('DOMContentLoaded', function () {
 								method: 'POST',
 								body: formData
 							});
-
-							if (response.ok) {
-								let result = await response.json();
-								alert(result.message);
-								formPreview.innerHTML = '';
-								formContact.reset();
-								formContact.classList.remove('_sending');
-							} else {
-								formContact.classList.remove('_sending');
-							}
+							console.log(response);
+							// if (response.ok) {
+							// 	let result = await response.json();
+							// 	alert(result.message);
+							// 	formPreview.innerHTML = '';
+							// 	formContact.reset();
+							// 	formContact.classList.remove('_sending');
+							// } else {
+							// 	formContact.classList.remove('_sending');
+							// }
 						} catch (e) {
 							console.log(e);
 							throw e
