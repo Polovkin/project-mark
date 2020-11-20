@@ -174,7 +174,7 @@ input:focus+.slider {
 .full-form__item,
 .full-form__personal .full-form__buttons {
 	width: 100%;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 	padding-bottom: 10px
 }
 
@@ -199,13 +199,19 @@ input:focus+.slider {
 	box-shadow: none;
 	line-height: 24px;
 	-webkit-box-flex: 1;
-	-ms-flex-positive: 1;
 	flex-grow: 1;
 	padding: 17px 20px;
 	color: #fff;
-	background-color: #5b627d
-}
+	background-color: #5b627d;
 
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active  {
+	-webkit-box-shadow: 0 0 0 30px #5b627d inset !important;
+	-webkit-text-fill-color: white !important;
+}
 .full-form__input::-webkit-input-placeholder,
 .full-form__textarea::-webkit-input-placeholder {
 	color: #6d738b
@@ -921,6 +927,7 @@ label[for=full-form__sales]:before {
 		}
 	}
 }
+
 
 @media (max-width: 1024px) {
 	#myId {
