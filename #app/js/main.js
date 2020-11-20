@@ -670,19 +670,18 @@ if (sendForm) {
         e.preventDefault()
         let inputs = document.querySelectorAll('.full-form__input');
         let radioInput = document.querySelector('#full-form__itypeOther');
-        let radios = document.querySelector('input[type="radio"]');
+        let radios = document.querySelectorAll('input[type="radio"]');
         let formData = new FormData(sendForm)
         let error = false;
 
-        // for (let i = 0; i < radios.length; i++) {
-        //
-        // }
 
-        for (let i = 0; i < inputs.length; i++) {
-            if (inputs[i].name === 'iType' && !radioInput.value) {
-                formData.set('iType', radioInput.value);
-                console.log(formData.get('iType'));
+        for (let i = 0; i < radios.length; i++) {
+            if (radioInput.value && radios[i].name === 'iType') {
+                formData.set('iType','')
             }
+
+        }
+        for (let i = 0; i < inputs.length; i++) {
             if (!inputs[i].value) {
                 error = true;
                 inputs[i].classList.add('error');
