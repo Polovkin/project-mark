@@ -401,10 +401,7 @@ $(document).ready(function () {
 "use strict"
 //===============================================================================================================================================================
 
-let form = new FormData(document.querySelector('#full-form'))
-for (var key of form.keys()) {
-	console.log(key);
-}
+
 document.addEventListener('DOMContentLoaded', function () {
 	const fullform = document.querySelector('#full-form');
 	if (fullform) {
@@ -425,7 +422,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			window.location.href = window.location.href + '/form.html';
 		}
 
-		form.addEventListener('submit', async function  (e) {
+		form.addEventListener('submit', function (e) {
 			e.preventDefault();
 			let error = formValidate(form);
 			let formData = new FormData(form);
@@ -663,4 +660,21 @@ $(document).ready(function () {
 
 });
 
+let sendForm = document.getElementById('full-form')
 
+sendForm.addEventListener('submit', (e) => {
+	e.preventDefault()
+	let formData = new FormData(sendForm)
+
+	try()
+	fetch('http://', {
+		method: 'POST',
+		body: formData
+	})
+		.then((response) => {
+			return response.json();
+		})
+		.then((data) => {
+			console.log(data);
+		});
+})

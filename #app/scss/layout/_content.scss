@@ -4762,3 +4762,10 @@
 }
 
 .btn {}
+
+.iti--allow-dropdown .iti__flag-container {
+	pointer-events: none;
+	.iti__arrow {
+		display: none;
+	}
+}

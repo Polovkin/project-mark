@@ -13,6 +13,7 @@
 	<meta name='description' content="" />
 	<meta name="keywords" content="" />
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="stylesheet" href="js/input/build/css/intlTelInput.css">
 </head>
 
 <body>
@@ -75,7 +76,7 @@
 			<div class="page__content content">
 				<div class="content__container container">
 					<div class="info-block">
-						<form class="full-form__content" id="full-form">
+						<form class="full-form__content" id="full-form" name="">
 							<div class="full-form__block">
 								<h3 class="full-form__title">Business Information:</h3>
 								<div class="full-form__group">
@@ -461,6 +462,7 @@
 		</div>
 		<!-- Подключаем jquery -->
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="js/input/build/js/intlTelInput.js"></script>
 		<script src="js/vendors.js"></script>
 		<script src="js/app.js"></script>
 		<script src="js/smoothScroll.js"></script>
@@ -468,6 +470,18 @@
 		<script src="js/slick.js"></script>
 		<!-- файл скриптов-->
 		<script src="js/main.js"></script>
+		<script>
+			let input = document.querySelector("#full-form__bnumber");
+			let input2 = document.querySelector("#full-form__phone");
+			window.intlTelInput(input);
+			window.intlTelInput(input2);
+		</script>
+		<script>
+			let myDropzone = new Dropzone("div#myId", { url: "/file/post"});
+			myDropzone.on("addedfile", function(file) {
+				console.log('>>>', file);
+			});
+		</script>
 </body>
 
 </html>
