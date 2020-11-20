@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9e0e5ba0-5867-465a-869d-e7b7dbbe2bd4" name="mikle">
+        <fileTransfer rootFolder="/home/mikle" accessType="SFTP" host="mikle.takasho.work" port="22" sshConfigId="36ba791c-fcc2-48d0-a8d6-5c3cc93bd1b8" sshConfig="mikle@mikle.takasho.work:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
