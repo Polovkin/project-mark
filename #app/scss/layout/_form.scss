@@ -788,3 +788,9 @@ label[for=full-form__sales]:before {
 		margin-top: 10px
 	}
 }
+
+.full-form__content {
+	.iti--allow-dropdown input {
+		width: 100%;
+	}
+}

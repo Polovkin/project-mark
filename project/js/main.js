@@ -422,7 +422,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			window.location.href = window.location.href + '/form.html';
 		}
 
-		form.addEventListener('submit', function (e) {
+		form.addEventListener('submit', async function  (e) {
 			e.preventDefault();
 			let error = formValidate(form);
 			let formData = new FormData(form);
@@ -433,21 +433,33 @@ document.addEventListener('DOMContentLoaded', function () {
 			} else {
 				if (error === 0) {
 					console.log('sens')
-					// form.classList.add('_sending');
-					// let response = await fetch('send_mail.php', {
-					//     method: 'POST',
-					//     body: formData
-					// });
-					// if (response.ok) {
-					//     let result = await response.json();
-					//     alert(result.message);
-					//     formPreview.innerHTML = '';
-					//     form.reset();
-					//     form.classList.remove('_sending');Или
-					// } else {
-					//     alert("Ошибка");
-					//     form.classList.remove('_sending');
-					// }
+					if (error === 0) {
+						console.log(formData);
+						formContact.classList.add('_sending');
+						try {
+							let response = await fetch('send_mail.php', {
+								method: 'POST',
+								body: formData
+							});
+
+							if (response.ok) {
+								let result = await response.json();
+								alert(result.message);
+								formPreview.innerHTML = '';
+								formContact.reset();
+								formContact.classList.remove('_sending');
+							} else {
+								formContact.classList.remove('_sending');
+							}
+						} catch (e) {
+							console.log(e);
+							throw e
+						}
+
+					} else {
+						// alert('Заполните обязательные поля');
+						console.log(error);
+					}
 				} else {
 					// alert('Заполните обязательные поля');
 					console.log(error);
@@ -479,9 +491,9 @@ document.addEventListener('DOMContentLoaded', function () {
 							alert(result.message);
 							formPreview.innerHTML = '';
 							formContact.reset();
-							formContact.classList.remove('_sending');Или
+							formContact.classList.remove('_sending');
 						} else {
-							alert("Ошибка");
+
 							formContact.classList.remove('_sending');
 						}
 					 } catch (e) {

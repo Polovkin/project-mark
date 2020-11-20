@@ -2672,6 +2672,14 @@ h6 {
   min-width: 208px;
 }
 
+.iti--allow-dropdown .iti__flag-container {
+  pointer-events: none;
+}
+
+.iti--allow-dropdown .iti__flag-container .iti__arrow {
+  display: none;
+}
+
 .section,
 body > section {
   position: relative;
@@ -3427,6 +3435,10 @@ label[for=full-form__sales]:before {
 
 #myId .dz-button {
   visibility: hidden;
+}
+
+.full-form__content .iti--allow-dropdown input {
+  width: 100%;
 }
 
 @media (min-width: 480px) {
