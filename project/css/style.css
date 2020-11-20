@@ -3441,6 +3441,10 @@ label[for=full-form__sales]:before {
   width: 100%;
 }
 
+.full-form__input {
+  width: 100%;
+}
+
 @media (min-width: 480px) {
   .product-image__img:before {
     content: '';

@@ -406,7 +406,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	const fullform = document.querySelector('#full-form');
 	if (fullform) {
 
-		console.log(localStorage);
+
 	} else {
 		const form = document.querySelector('#form')
 		const formContact = document.querySelector('#formContact');
@@ -437,7 +437,7 @@ document.addEventListener('DOMContentLoaded', function () {
 						console.log(formData);
 						formContact.classList.add('_sending');
 						try {
-							let response = await fetch('send_mail.php', {
+							let response = await fetch('http://mikle.takasho.work/send_mail.php', {
 								method: 'POST',
 								body: formData
 							});
@@ -481,21 +481,21 @@ document.addEventListener('DOMContentLoaded', function () {
 					console.log(formData);
 					formContact.classList.add('_sending');
 					try {
-						let response = await fetch('send_mail.php', {
+						let response = await fetch('http://mikle.takasho.work/send_mail.php', {
 							method: 'POST',
 							body: formData
 						});
 
-						if (response.ok) {
-							let result = await response.json();
-							alert(result.message);
-							formPreview.innerHTML = '';
-							formContact.reset();
-							formContact.classList.remove('_sending');
-						} else {
-
-							formContact.classList.remove('_sending');
-						}
+						console.log(response);
+						// if (response.ok) {
+						// 	let result = await response.json();
+						// 	alert(result.message);
+						// 	formPreview.innerHTML = '';
+						// 	formContact.reset();
+						// 	formContact.classList.remove('_sending');
+						// } else {
+						// 	formContact.classList.remove('_sending');
+						// }
 					 } catch (e) {
 					     console.log(e);
 					      throw e
@@ -660,25 +660,25 @@ $(document).ready(function () {
 
 });
 
-let sendForm = document.getElementById('full-form')
+let sendForm = document.getElementById('full-form');
 
-sendForm.addEventListener('submit', (e) => {
-	e.preventDefault()
-	let formData = new FormData(sendForm)
+if (sendForm) {
+	console.log(localStorage);
+	sendForm.addEventListener('submit', (e) => {
 
-	try {
-		fetch('http://', {
+		e.preventDefault()
+		let formData = new FormData(sendForm)
+
+		fetch('http://mikle.takasho.work/send_mail.php', {
 			method: 'POST',
 			body: formData
 		})
-			.then((response) => {
-				return response.json();
-			})
-			.then((data) => {
-				console.log(data);
-			});
-	}
-	catch (e) {
-		console.log('>>>', e);
-	}
-})
+				.then((response) => {
+					return response.json();
+				})
+				.then((data) => {
+					console.log(data);
+				});
+	})
+
+}
