@@ -680,7 +680,7 @@ if (sendForm) {
         let formData = new FormData(sendForm)
         let error = false;
 
-
+        console.log(localStorage.length);
         for (let i = 0; i < radios.length; i++) {
             if (radioInput.value && radios[i].name === 'iType') {
                 formData.set('iType','')

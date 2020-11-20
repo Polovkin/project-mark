@@ -3081,8 +3081,8 @@ input:focus + .slider {
   left: 5px;
   top: 5px;
   border-radius: 50px;
-  background-color: #176ce2;
-  border: 1px solid #176ce2;
+  border: 1px solid #5b627d;
+  background-color: #5b627d;
   color: #fff;
 }
 
