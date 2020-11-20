@@ -25,11 +25,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e62ab16-c4e6-4ec1-8fdb-d4127418fa08" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/#app/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/#app/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/#app/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#app/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#app/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#app/scss/layout/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#app/scss/layout/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,29 +47,35 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="2472" y="178" key="#Deployment" timestamp="1605898778327">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2472" y="178" key="#Deployment/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605898778327" />
-    <state x="2554" y="180" key="#Options" timestamp="1605898579435">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2554" y="180" key="#Options/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605898579435" />
-    <state x="2660" y="274" key="FileChooserDialogImpl" timestamp="1605898777274">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605898777274" />
-    <state x="1986" y="170" width="486" height="699" key="ftp.server.browser" timestamp="1605898724502">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1986" y="170" width="486" height="699" key="ftp.server.browser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605898724502" />
+    <state x="2472" y="178" key="#Deployment" />
+    <state x="2472" y="178" key="#Deployment/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" />
+    <state x="2554" y="180" key="#Options" />
+    <state x="2554" y="180" key="#Options/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" />
+    <state x="2660" y="274" key="FileChooserDialogImpl" />
+    <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" />
+    <state x="1986" y="170" width="486" height="699" key="ftp.server.browser" />
+    <state x="1986" y="170" width="486" height="699" key="ftp.server.browser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" />
   </component>
 </project>

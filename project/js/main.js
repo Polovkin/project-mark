@@ -743,3 +743,18 @@ if (sendForm) {
     })
 
 }
+
+let signature = document.getElementById('signature')
+let signatureImg = document.getElementById('signatureImg')
+let del = document.getElementById('del')
+
+signature.addEventListener('input', () => {
+    del.classList.add('visible')
+    signatureImg.setAttribute('src', URL.createObjectURL(signature.files[0]))
+})
+
+del.addEventListener('click', () => {
+    signature.value = ''
+    signatureImg.setAttribute('src', '')
+    del.classList.remove('visible')
+})
