@@ -3443,6 +3443,10 @@ label[for=full-form__sales]:before {
   line-height: 15px;
 }
 
+.dropzone__title p.mobile-file {
+  display: none;
+}
+
 #myId {
   cursor: pointer;
   width: 100%;
@@ -5041,6 +5045,121 @@ label[for=full-form__sales]:before {
     height: 1015px;
     width: 907px;
     background: url("../../img/404/404decor-768.png") 0 0 no-repeat;
+  }
+
+  #myId {
+    width: 100%;
+    height: 50px;
+    position: relative;
+  }
+
+  #myId .dz-message {
+    display: none;
+  }
+
+  #myId .dropzone__title {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    top: 0;
+    left: 0;
+    -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+
+  #myId .dropzone__title h3 {
+    display: none;
+  }
+
+  #myId .dropzone__title p {
+    display: none;
+  }
+
+  #myId .dropzone__title p.mobile-file {
+    display: block;
+    font-size: 12px;
+    margin-left: 16px;
+    max-width: unset;
+  }
+
+  #myId .dropzone__title .dropz-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid white;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  #myId .dz-preview {
+    width: calc(100% - 50px);
+    left: unset;
+    right: 0;
+    margin: auto;
+    max-height: 50px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0;
+    border-radius: 50px;
+  }
+
+  #myId .dz-preview .dz-success-mark,
+  #myId .dz-preview .dz-error-mark,
+  #myId .dz-preview .dz-image {
+    display: none;
+  }
+
+  #myId .dz-preview .dz-remove {
+    color: rgba(0, 0, 0, 0);
+    margin-right: 16px;
+  }
+
+  #myId .dz-preview .dz-remove:after {
+    display: block;
+    content: '';
+    background-image: url("../img/icons/remove-sign.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 8px;
+    height: 22px;
+    width: 22px;
+    border-radius: 50px;
+    background-color: rgba(23, 108, 226, 0.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 16px;
+    margin: auto 0;
+  }
+
+  #myId .dz-preview .dz-details {
+    margin-left: 16px;
+  }
+
+  #myId .dz-preview .dz-details .dz-size {
+    display: none;
+  }
+
+  #myId .dz-preview:before {
+    display: none;
   }
 }
 
