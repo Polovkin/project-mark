@@ -377,6 +377,13 @@ $(document).ready(function () {
         });
     }
     //RADIO
+    let radio = document.querySelectorAll('input[type="radio"]')
+    console.log(radio);
+
+    for (let i = 0; i < radio.length; i++) {
+        radio[i].checked = !(i % 2)
+    }
+
     $.each($('.radio__label'), function (index, val) {
         if ($(this).find('input').prop('checked') == true) {
             $(this).addClass('active');
@@ -421,7 +428,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 localStorage.setItem(key, formData.get(key))
             }
 
-            window.location.href = window.location.href + '/form.html';
+            window.location.href = 'http://mikle.takasho.work/form.html';
         }
 
         form.addEventListener('submit', async function (e) {
@@ -745,7 +752,7 @@ let signature = document.getElementById('signature')
 let signatureImg = document.getElementById('signatureImg')
 let del = document.getElementById('del')
 
-if(signature) {
+if (signature) {
     signature.addEventListener('input', () => {
         console.log('>>>', signature.files);
         del.classList.add('visible')
