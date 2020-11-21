@@ -19,19 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e62ab16-c4e6-4ec1-8fdb-d4127418fa08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/#app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/#app/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_11_2020_22_02__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_11_2020_22_02__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4e62ab16-c4e6-4ec1-8fdb-d4127418fa08" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/project-mark/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
@@ -53,11 +48,16 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/#app" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Михаил\Desktop\project\#app" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="links.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/project/server/links.html" useBuiltInWebServerPort="true">
@@ -109,8 +109,51 @@
       <option name="presentableId" value="Default" />
       <updated>1605951865620</updated>
       <workItem from="1605951867588" duration="1706000" />
+      <workItem from="1605953882645" duration="692000" />
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="123">
+      <created>1605953989137</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605953989137</updated>
+    </task>
+    <task id="LOCAL-00006" summary="123">
+      <created>1605954206963</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605954206963</updated>
+    </task>
+    <task id="LOCAL-00007" summary="404">
+      <created>1605954294420</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605954294420</updated>
+    </task>
+    <task id="LOCAL-00008" summary="form">
+      <created>1605954365032</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605954365032</updated>
+    </task>
+    <task id="LOCAL-00009" summary="index">
+      <created>1605954470579</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605954470579</updated>
+    </task>
+    <task id="LOCAL-00010" summary="index">
+      <created>1605954562114</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605954562114</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +185,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Storage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Storage" />
+    <MESSAGE value="123" />
+    <MESSAGE value="404" />
+    <MESSAGE value="form" />
+    <MESSAGE value="index" />
+    <option name="LAST_COMMIT_MESSAGE" value="index" />
   </component>
   <component name="WindowStateProjectService">
     <state x="665" y="503" key="#Deployment" timestamp="1605951896396">
@@ -154,14 +201,22 @@
     <state x="2554" y="180" key="#Options/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605951884115" />
     <state x="2660" y="274" key="FileChooserDialogImpl" timestamp="1605951884115" />
     <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605951884115" />
-    <state x="1102" y="402" key="RollbackChangesDialog" timestamp="1605953077371">
+    <state x="1102" y="402" key="RollbackChangesDialog" timestamp="1605954223786">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1102" y="402" key="RollbackChangesDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605953077371" />
+    <state x="1102" y="402" key="RollbackChangesDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605954223786" />
     <state x="2472" y="249" key="Vcs.Push.Dialog.v2" timestamp="1605951884115" />
     <state x="2472" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605951884115" />
     <state x="2697" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605951884115" />
     <state x="2697" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605951884115" />
+    <state x="-1084" y="0" width="972" height="1106" maximized="true" key="dock-window-1" timestamp="1605954580003">
+      <screen x="-1920" y="0" width="1920" height="1020" />
+    </state>
+    <state x="-1084" y="0" width="972" height="1106" maximized="true" key="dock-window-1/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605954580003" />
+    <state x="-1155" y="0" width="972" height="1106" maximized="true" key="dock-window-2" timestamp="1605954580003">
+      <screen x="-1920" y="0" width="1920" height="1020" />
+    </state>
+    <state x="-1155" y="0" width="972" height="1106" maximized="true" key="dock-window-2/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605954580003" />
     <state x="408" y="442" width="583" height="566" key="find.popup" timestamp="1605952984558">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -173,5 +228,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="943" y="742" key="publish.login/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605951914328" />
+    <state x="943" y="315" key="search.everywhere.popup" timestamp="1605954195647">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" key="search.everywhere.popup/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605954195647" />
   </component>
 </project>
