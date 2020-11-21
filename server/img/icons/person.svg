@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+  <g id="person" transform="translate(-20.91 -29.464)">
+    <rect id="Rectangle_938" data-name="Rectangle 938" width="55" height="55" rx="15" transform="translate(20.91 29.464)" fill="#e6704a" opacity="0.3"/>
+    <path id="Icon_color" data-name="Icon color" d="M7.6,0a3.8,3.8,0,1,0,3.8,3.8A3.8,3.8,0,0,0,7.6,0Zm6.125,11.068,1.367,2.743a.949.949,0,0,1-.845,1.376H.95A.949.949,0,0,1,.1,13.811l1.367-2.743A2.849,2.849,0,0,1,4.026,9.492h7.141A2.849,2.849,0,0,1,13.722,11.068Z" transform="translate(40.908 49.464)" fill="#e6704a" fill-rule="evenodd"/>
+  </g>
+</svg>
