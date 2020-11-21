@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e62ab16-c4e6-4ec1-8fdb-d4127418fa08" name="Default Changelist" comment="" />
+    <list default="true" id="4e62ab16-c4e6-4ec1-8fdb-d4127418fa08" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/project/project.zip" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605951865620</updated>
       <workItem from="1605951867588" duration="1706000" />
-      <workItem from="1605953882645" duration="692000" />
+      <workItem from="1605953882645" duration="1064000" />
     </task>
     <task id="LOCAL-00005" summary="123">
       <created>1605953989137</created>
@@ -153,7 +155,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605954562114</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="set">
+      <created>1605954817827</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605954817827</updated>
+    </task>
+    <task id="LOCAL-00012" summary="set">
+      <created>1605954928497</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605954928497</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +205,8 @@
     <MESSAGE value="404" />
     <MESSAGE value="form" />
     <MESSAGE value="index" />
-    <option name="LAST_COMMIT_MESSAGE" value="index" />
+    <MESSAGE value="set" />
+    <option name="LAST_COMMIT_MESSAGE" value="set" />
   </component>
   <component name="WindowStateProjectService">
     <state x="665" y="503" key="#Deployment" timestamp="1605951896396">
@@ -217,17 +234,17 @@
       <screen x="-1920" y="0" width="1920" height="1020" />
     </state>
     <state x="-1155" y="0" width="972" height="1106" maximized="true" key="dock-window-2/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605954580003" />
-    <state x="408" y="442" width="583" height="566" key="find.popup" timestamp="1605952984558">
+    <state x="408" y="176" width="1189" height="832" key="find.popup" timestamp="1605954731193">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="408" y="442" width="583" height="566" key="find.popup/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605952984558" />
+    <state x="408" y="176" width="1189" height="832" key="find.popup/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605954731193" />
     <state x="2588" y="237" width="583" height="566" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605951884115" />
     <state x="1986" y="170" width="486" height="699" key="ftp.server.browser" timestamp="1605951884115" />
     <state x="1986" y="170" width="486" height="699" key="ftp.server.browser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605951884115" />
-    <state x="943" y="742" key="publish.login" timestamp="1605951914328">
+    <state x="943" y="742" key="publish.login" timestamp="1605954585803">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="943" y="742" key="publish.login/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605951914328" />
+    <state x="943" y="742" key="publish.login/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605954585803" />
     <state x="943" y="315" key="search.everywhere.popup" timestamp="1605954195647">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
