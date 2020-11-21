@@ -5,7 +5,7 @@
       <paths name="mikle">
         <serverdata>
           <mappings>
-            <mapping deploy="/public_html" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/public_html/project" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
