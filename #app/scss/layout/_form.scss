@@ -929,6 +929,17 @@ label[for=full-form__sales]:before {
 			}
 		}
 	}
+	@media (max-width: 767px) {
+		flex-direction: column;
+		.signature-button {
+			height: 50px;
+			width: 100%;
+			margin-right: 0;
+			margin-bottom: 20px;
+			flex: unset;
+		}
+
+	}
 }
 
 

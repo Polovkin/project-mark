@@ -378,7 +378,7 @@ $(document).ready(function () {
     }
     //RADIO
     let radio = document.querySelectorAll('input[type="radio"]')
-    console.log(radio);
+
 
     for (let i = 0; i < radio.length; i++) {
         radio[i].checked = !(i % 2)

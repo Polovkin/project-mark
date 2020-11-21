@@ -5289,6 +5289,23 @@ label[for=full-form__sales]:before {
   .full-form__checkbox {
     margin-top: 10px;
   }
+
+  .signature {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .signature .signature-button {
+    height: 50px;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+    -webkit-box-flex: unset;
+        -ms-flex: unset;
+            flex: unset;
+  }
 }
 
 @media (max-width: 720px) {
