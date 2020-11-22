@@ -702,13 +702,9 @@ if (sendForm) {
         formData.set('email', localStorage.getItem('email'));
         formData.set('Company', localStorage.getItem('Company'));
 
-        for (let i = 0; i < storageData.length; i++) {
-            console.log(localStorage.getItem(storageData[i]));
-        }
-        if (!checkTerms.checked) {
-            error = true
-        }
 
+
+        error = !checkTerms.checked
         for (let i = 0; i < radios.length; i++) {
             if (radioInput.value && radios[i].name === 'iType') {
                 formData.set('iType', '')
@@ -719,13 +715,16 @@ if (sendForm) {
             if (!inputs[i].value) {
                 error = true;
                 inputs[i].classList.add('error');
+                if (inputs[i].id === 'full-form__itypeOther') {
+                    inputs[i].classList.remove('error');
+                    error = false;
+                }
             } else {
                 inputs[i].classList.remove('error');
             }
         }
 
         if (!error) {
-
 
             fetch('http://mikle.takasho.work//send_mail.php', {
                 method: 'POST',
