@@ -377,6 +377,13 @@ $(document).ready(function () {
         });
     }
     //RADIO
+    let radio = document.querySelectorAll('input[type="radio"]')
+
+
+    for (let i = 0; i < radio.length; i++) {
+        radio[i].checked = !(i % 2)
+    }
+
     $.each($('.radio__label'), function (index, val) {
         if ($(this).find('input').prop('checked') == true) {
             $(this).addClass('active');
@@ -421,7 +428,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 localStorage.setItem(key, formData.get(key))
             }
 
-            window.location.href = window.location.href + '/form.html';
+            window.location.href = 'http://mikle.takasho.work/form.html';
         }
 
         form.addEventListener('submit', async function (e) {
@@ -695,13 +702,9 @@ if (sendForm) {
         formData.set('email', localStorage.getItem('email'));
         formData.set('Company', localStorage.getItem('Company'));
 
-        for (let i = 0; i < storageData.length; i++) {
-            console.log(localStorage.getItem(storageData[i]));
-        }
-        if (!checkTerms.checked) {
-            error = true
-        }
 
+
+        error = !checkTerms.checked
         for (let i = 0; i < radios.length; i++) {
             if (radioInput.value && radios[i].name === 'iType') {
                 formData.set('iType', '')
@@ -712,13 +715,16 @@ if (sendForm) {
             if (!inputs[i].value) {
                 error = true;
                 inputs[i].classList.add('error');
+                if (inputs[i].id === 'full-form__itypeOther') {
+                    inputs[i].classList.remove('error');
+                    error = false;
+                }
             } else {
                 inputs[i].classList.remove('error');
             }
         }
 
         if (!error) {
-
 
             fetch('http://mikle.takasho.work//send_mail.php', {
                 method: 'POST',
@@ -745,7 +751,7 @@ let signature = document.getElementById('signature')
 let signatureImg = document.getElementById('signatureImg')
 let del = document.getElementById('del')
 
-if(signature) {
+if (signature) {
     signature.addEventListener('input', () => {
         console.log('>>>', signature.files);
         del.classList.add('visible')
